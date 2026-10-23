@@ -28,10 +28,18 @@ h2{font-size:19px;color:#e0c879;margin:24px 0 13px}
  transition:background .2s,border-color .2s
 }
 .item:hover{background:#182440;border-color:#b6a46b}
+.item:active{transform:scale(.985)}
 .logo{
  width:32px;height:32px;flex-shrink:0;
  object-fit:contain;display:block
 }
+.logo-text{
+ width:32px;height:32px;flex-shrink:0;
+ display:flex;align-items:center;justify-content:center;
+ font-weight:900;font-size:25px;direction:ltr
+}
+.amazon-logo{font-size:23px;color:#00a8e0;position:relative}
+.amazon-logo small{font-size:9px;position:absolute;bottom:-1px;left:2px;color:#ffad32}
 .info{flex:1;min-width:0}
 .name{font-size:16px;font-weight:bold;direction:ltr;text-align:right}
 .desc{font-size:12px;color:#b5bfd3;margin-top:6px}
@@ -74,7 +82,7 @@ footer{text-align:center;margin-top:30px;color:#929db5;font-size:12px;line-heigh
 </a>
 
 <a class="item" href="https://music.amazon.com/search/MUSIC%20RETURN%20VIBES" target="_blank" rel="noopener">
-<img class="logo" src="https://cdn.simpleicons.org/amazonmusic/00A8E0" alt="Amazon Music">
+<span class="logo-text amazon-logo" aria-label="Amazon Music">a<small>⌣</small></span>
 <div class="info"><div class="name">Amazon Music</div><div class="desc">ابحث عن MUSIC RETURN VIBES</div></div><span class="arrow">↗</span>
 </a>
 
@@ -96,6 +104,11 @@ footer{text-align:center;margin-top:30px;color:#929db5;font-size:12px;line-heigh
 <a class="item" href="https://www.tiktok.com/@musicreturn4" target="_blank" rel="noopener">
 <img class="logo" src="https://cdn.simpleicons.org/tiktok/ffffff" alt="TikTok">
 <div class="info"><div class="name">TikTok</div><div class="desc">تابع أحدث إصداراتنا</div></div><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://www.facebook.com/share/1PTNLDfdcP/" target="_blank" rel="noopener">
+<img class="logo" src="https://cdn.simpleicons.org/facebook/0866FF" alt="Facebook">
+<div class="info"><div class="name">Facebook</div><div class="desc">تابع MUSIC RETURN على فيسبوك</div></div><span class="arrow">↗</span>
 </a>
 
 </div>
