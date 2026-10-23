@@ -4,77 +4,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MUSIC RETURN | استمع إلى أعمالنا</title>
+<meta name="theme-color" content="#071126">
+<title>MUSIC RETURN | Official Links</title>
 <style>
 *{box-sizing:border-box}
 body{
- margin:0;background:linear-gradient(#07163e,#020611);
- color:white;font-family:Arial,sans-serif;
- padding:25px 16px;min-height:100vh
+ margin:0;padding:24px 16px 35px;
+ min-height:100vh;color:#fff;
+ font-family:Arial,Tahoma,sans-serif;
+ background:linear-gradient(155deg,#101d43 0%,#060d20 55%,#02050c 100%)
 }
-header{text-align:center;padding:30px 0}
-.logo{font-size:32px;font-weight:bold;letter-spacing:3px}
-.sub{color:#c4c8d8;margin-top:12px}
-h2{color:#e5ca70;font-size:23px;margin:30px 0 18px}
-.links{display:grid;gap:14px}
-a{color:inherit;text-decoration:none}
-.link{
- display:flex;align-items:center;gap:16px;
- padding:17px;background:#101a35;
- border:1px solid #655c3b;border-radius:20px;
- min-height:88px;transition:.2s
+header{text-align:center;padding:25px 0 30px}
+.brand{font-size:29px;font-weight:900;letter-spacing:3px;direction:ltr}
+.subtitle{color:#c4ccdf;font-size:14px;margin-top:13px}
+h2{font-size:20px;color:#e7d49a;margin:26px 0 15px}
+.links{display:grid;gap:12px}
+.item{
+ display:flex;align-items:center;gap:15px;
+ padding:14px 16px;min-height:76px;
+ background:rgba(21,32,61,.86);
+ border:1px solid #384463;border-radius:17px;
+ color:white;text-decoration:none;
+ transition:border-color .2s,transform .2s
 }
-.link:active{transform:scale(.98)}
-.symbol{
- width:54px;height:54px;background:#fff;color:#10152b;
- border-radius:15px;display:grid;place-items:center;
- font-size:23px;font-weight:bold;flex-shrink:0
+.item:hover{border-color:#d7c48a}
+.item:active{transform:scale(.985)}
+.logo-box{
+ width:44px;height:44px;flex-shrink:0;
+ display:flex;align-items:center;justify-content:center;
+ background:#fff;border-radius:12px
 }
-.name{font-size:19px;font-weight:bold;direction:ltr;text-align:right}
-.desc{font-size:14px;color:#c0c6d9;margin-top:7px}
-footer{text-align:center;color:#b9bfd0;margin:35px 0 15px;font-size:13px}
+.logo-box img{width:27px;height:27px;object-fit:contain}
+.info{flex:1;min-width:0}
+.name{font-size:17px;font-weight:bold;direction:ltr;text-align:right}
+.desc{font-size:12px;color:#bbc5da;margin-top:6px}
+.arrow{font-size:20px;color:#d7c48a}
+footer{text-align:center;margin-top:32px;color:#aeb8cf;font-size:12px;line-height:2}
 </style>
 </head>
 <body>
+
 <header>
- <div class="logo">MUSIC RETURN</div>
- <div class="sub">استمع إلى أعمالنا عبر كل منصات الاستماع 🎧</div>
+ <div class="brand">MUSIC RETURN</div>
+ <div class="subtitle">استمع إلى أعمالنا عبر منصات الاستماع 🎧</div>
 </header>
+
 <h2>🎵 منصات الاستماع</h2>
 <div class="links">
- <a class="link" href="https://open.spotify.com/" target="_blank">
-  <span class="symbol" style="color:#1db954">●</span>
-  <div><div class="name">Spotify</div><div class="desc">استمع إلى أعمالنا على سبوتيفاي</div></div>
- </a>
- <a class="link" href="https://music.apple.com/" target="_blank">
-  <span class="symbol">♫</span>
-  <div><div class="name">Apple Music</div><div class="desc">استمع إلى أعمالنا على أبل ميوزيك</div></div>
- </a>
- <a class="link" href="https://music.youtube.com/" target="_blank">
-  <span class="symbol" style="color:#f22">▶</span>
-  <div><div class="name">YouTube Music</div><div class="desc">استمع إلى أعمالنا على يوتيوب ميوزيك</div></div>
- </a>
- <a class="link" href="https://play.anghami.com/" target="_blank">
-  <span class="symbol" style="color:#883cff">A</span>
-  <div><div class="name">Anghami</div><div class="desc">استمع إلى أعمالنا على أنغامي</div></div>
- </a>
+
+<a class="item" href="https://open.spotify.com/artist/3F0UA4gsckFwUc9udtxeqP?si=DjjnURVzQsusevat3CI3mQ&utm_source=copy-link" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/spotify/1DB954" alt="Spotify"></span>
+ <span class="info"><div class="name">Spotify</div><div class="desc">استمع إلى أعمالنا على سبوتيفاي</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://music.apple.com/us/artist/music-return-vibes/6772535788" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/applemusic/FA243C" alt="Apple Music"></span>
+ <span class="info"><div class="name">Apple Music</div><div class="desc">استمع إلى أعمالنا على أبل ميوزيك</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://music.youtube.com/watch?v=7F--0V7TL9c" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/youtubemusic/FF0033" alt="YouTube Music"></span>
+ <span class="info"><div class="name">YouTube Music</div><div class="desc">استمع إلى أعمالنا على يوتيوب ميوزيك</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://play.anghami.com/artist/28599155" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://www.google.com/s2/favicons?domain=anghami.com&sz=128" alt="Anghami"></span>
+ <span class="info"><div class="name">Anghami</div><div class="desc">استمع إلى أعمالنا على أنغامي</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://link.deezer.com/s/34L326HUSt2AXn2yc5n3B" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/deezer/FEAA2D" alt="Deezer"></span>
+ <span class="info"><div class="name">Deezer</div><div class="desc">استمع إلى أعمالنا على ديزر</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://music.amazon.com/search/MUSIC%20RETURN%20VIBES" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/amazonmusic/00A8E0" alt="Amazon Music"></span>
+ <span class="info"><div class="name">Amazon Music</div><div class="desc">ابحث عن MUSIC RETURN VIBES</div></span><span class="arrow">↗</span>
+</a>
+
 </div>
+
 <h2>📱 حساباتنا الرسمية</h2>
 <div class="links">
- <a class="link" href="https://youtube.com/@musicreturn4" target="_blank">
-  <span class="symbol">▶</span>
-  <div><div class="name">YouTube</div><div class="desc">تابع قناة MUSIC RETURN</div></div>
- </a>
- <a class="link" href="https://instagram.com/musicreturn4" target="_blank">
-  <span class="symbol">◎</span>
-  <div><div class="name">Instagram</div><div class="desc">@musicreturn4</div></div>
- </a>
- <a class="link" href="https://vm.tiktok.com/ZS91DpS9ce85R-4Qawf/" target="_blank">
-  <span class="symbol">♪</span>
-  <div><div class="name">TikTok</div><div class="desc">تابع أحدث أعمالنا</div></div>
- </a>
+
+<a class="item" href="https://youtube.com/@musicreturn4" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube"></span>
+ <span class="info"><div class="name">YouTube</div><div class="desc">تابع قناة MUSIC RETURN</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://instagram.com/musicreturn4" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram"></span>
+ <span class="info"><div class="name">Instagram</div><div class="desc">@musicreturn4</div></span><span class="arrow">↗</span>
+</a>
+
+<a class="item" href="https://www.tiktok.com/@musicreturn4" target="_blank" rel="noopener">
+ <span class="logo-box"><img src="https://cdn.simpleicons.org/tiktok/111111" alt="TikTok"></span>
+ <span class="info"><div class="name">TikTok</div><div class="desc">تابع أحدث إصداراتنا</div></span><span class="arrow">↗</span>
+</a>
+
 </div>
-<footer>MUSIC RETURN © جميع الحقوق محفوظة</footer>
+
+<footer>
+MUSIC RETURN<br>
+جميع الحقوق محفوظة ©
+</footer>
 </body>
 </html>
-
